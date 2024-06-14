@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /markdown-examples
+      link: /personal/log-reporting/v1
     - theme: alt
       text: View on GitHub
       link: https://github.com/wangxiaoze-view

@@ -397,4 +397,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-.docs/.vitepress/dist
+docs/.vitepress/dist
