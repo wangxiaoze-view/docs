@@ -69,9 +69,9 @@ export default defineConfig({
 		search: {
 			provider: "algolia",
 			options: {
-				appId: "...",
-				apiKey: "...",
-				indexName: "...",
+				appId: "WU1AJP2TAZ",
+				apiKey: "7482b3c521667f0d090c5a782450b94d",
+				indexName: "wangxiaoze",
 			},
 		},
 	},
