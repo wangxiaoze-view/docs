@@ -7,6 +7,7 @@ export default defineConfig({
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
+			{ text: "utils-tools", link: "https://docs-tools.wangzevw.com/" },
 			{ text: "主页", link: "/" },
 			{ text: "安帮客", link: "/abk/rule/team-rule" },
 			{
