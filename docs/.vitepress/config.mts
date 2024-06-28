@@ -7,6 +7,7 @@ export default defineConfig({
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
+			{ text: "utils-tools", link: "https://docs-tools.wangzevw.com/" },
 			{ text: "主页", link: "/" },
 			{ text: "安帮客", link: "/abk/rule/team-rule" },
 			{
@@ -81,9 +82,9 @@ export default defineConfig({
 		search: {
 			provider: "algolia",
 			options: {
-				appId: "...",
-				apiKey: "...",
-				indexName: "...",
+				appId: "WU1AJP2TAZ",
+				apiKey: "7482b3c521667f0d090c5a782450b94d",
+				indexName: "wangxiaoze",
 			},
 		},
 	},
