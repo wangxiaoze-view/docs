@@ -11,7 +11,11 @@ export default defineConfig({
 			{ text: "安帮客", link: "/abk/rule/team-rule" },
 			{
 				text: "个人项目",
-				items: [{ text: "log-reporting", link: "/personal/log-reporting/v1" }],
+				items: [
+					{ text: "log-reporting", link: "/personal/log-reporting/v1" },
+					{ text: "sim-admin", link: "/personal/sim-admin/1" },
+					{ text: "temp-pro", link: "/personal/temp-pro/1" },
+				],
 			},
 		],
 
@@ -51,6 +55,14 @@ export default defineConfig({
 						{ text: "V1", link: "/personal/log-reporting/v1" },
 						{ text: "V2", link: "/personal/log-reporting/v2" },
 					],
+				},
+				{
+					text: "sim-admin",
+					items: [{ text: "敬请期待", link: "/personal/sim-admin/1" }],
+				},
+				{
+					text: "temp-pro",
+					items: [{ text: "敬请期待", link: "/personal/temp-pro/1" }],
 				},
 			],
 		},
