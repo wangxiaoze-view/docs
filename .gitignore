@@ -402,3 +402,5 @@ docs/.vitepress/dist
 /*/.DS_Store
 .DS_Store
 /**/*/.DS_Store 
+
+docs/.vitepress/cache
