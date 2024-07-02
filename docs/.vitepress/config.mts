@@ -15,7 +15,7 @@ export default defineConfig({
 				items: [
 					{ text: "log-reporting", link: "/personal/log-reporting/v1" },
 					{ text: "sim-admin", link: "/personal/sim-admin/1" },
-					{ text: "temp-pro", link: "/personal/temp-pro/1" },
+					{ text: "temp-pro", link: "/personal/temp-pro/docs" },
 				],
 			},
 		],
@@ -63,7 +63,7 @@ export default defineConfig({
 				},
 				{
 					text: "temp-pro",
-					items: [{ text: "敬请期待", link: "/personal/temp-pro/1" }],
+					items: [{ text: "如何使用", link: "/personal/temp-pro/docs" }],
 				},
 			],
 		},

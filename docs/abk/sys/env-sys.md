@@ -20,6 +20,9 @@ outline: deep
 - 下载`nvm`安装不同版本的`node`以适配不同的项目;
   - [mac 安装 nvm 链接(点击查看)](https://github.com/nvm-sh/nvm);
   - [windows 安装链接](https://github.com/coreybutler/nvm-windows);
+- 当然也是可以用`fnm`去做包管理，`node`官网也是推荐的;与`nvm`的区别
+  - `nvm`是`shell`编写，而`fnm`是`rust`编写，速度更快
+  - 安装方式不同 [github](https://github.com/Schniz/fnm?tab=readme-ov-file), [node+fnm](https://nodejs.org/en/download/package-manager)
 - 安装不一样的包管理，配置完成`node`之后默认的安装为`npm`;
   - **npm**: 默认的安装， 安装速度有点慢，有赖于镜像地址;
   - **yarn**: 安装速度比`npm`快一些，使用比较稳定;
