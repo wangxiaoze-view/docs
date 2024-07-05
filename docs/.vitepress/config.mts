@@ -4,6 +4,58 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "项目文档",
 	description: "文档",
+	head: [
+		[
+			"link",
+			{
+				rel: "icon",
+				href: "/logo.png",
+			},
+		],
+
+		[
+			"script",
+			{},
+			`
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-MT2ZDS8K');
+			`,
+		],
+		[
+			"script",
+			{},
+			`
+				(function () {
+				var hm = document.createElement("noscript");
+				var iframe = document.createElement("iframe");
+				iframe.src = "https://www.googletagmanager.com/ns.html?id=GTM-MT2ZDS8K";
+				iframe.height = 0;
+				iframe.width = 0;
+				iframe.style.display = "none";
+				iframe.style.visibility = "hidden";
+				hm.appendChild(iframe)
+				var s = document.querySelector("#app");
+				s.parentNode.insertBefore(hm, s);
+			})();
+				`,
+		],
+		[
+			"script",
+			{},
+			`
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "https://hm.baidu.com/hm.js?bfe6bd3cd2803cec6edda2872eb3faa2";
+					var s = document.getElementsByTagName("script")[0]; 
+					s.parentNode.insertBefore(hm, s);
+				})();
+			`,
+		],
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
