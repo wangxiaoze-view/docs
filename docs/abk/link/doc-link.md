@@ -91,3 +91,15 @@ outline: deep
 - **测试环境**:
 - **预发布环境**:
 - **生产环境**:
+
+## 内部文档
+
+公司项目中经常用到的一些第三方文档以及 ui 库，方便开发人员快速使用。
+
+1. [jenkins](http://jenkins.dev.anbangke.com/login?from=%2F), 如果打不开请使用 ip
+2. [gitlab](http://gitlab.dev.anbangke.com/), 如果打不开请使用 ip
+3. [App 下载](https://h5.anbangke.com/html/appdown.html)
+4. [天润电话条](https://develop.clink.cn/develop/web/toolbar.html)
+5. [nps 域名穿透](http://47.117.45.33:38700/login/index)
+6. [yapi 接口文档](http://yapi.dev.anbangke.com/)
+7. [第三方金额插件](https://currency.js.org/)
