@@ -117,6 +117,14 @@ export default defineConfig({
 					text: "temp-pro",
 					items: [{ text: "如何使用", link: "/personal/temp-pro/docs" }],
 				},
+				{
+					text: "dev-tools",
+					items: [
+						{ text: "介绍", link: "/personal/dev-tools/info" },
+						{ text: "环境配置", link: "/personal/dev-tools/env" },
+						{ text: "常见问题", link: "/personal/dev-tools/bug" },
+					],
+				},
 			],
 		},
 
