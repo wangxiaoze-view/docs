@@ -68,6 +68,7 @@ export default defineConfig({
 					{ text: "log-reporting", link: "/personal/log-reporting/v1" },
 					{ text: "sim-admin", link: "/personal/sim-admin/1" },
 					{ text: "temp-pro", link: "/personal/temp-pro/docs" },
+					{ text: "dev-tools", link: "/personal/dev-tools/info" },
 				],
 			},
 		],
