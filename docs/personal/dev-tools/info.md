@@ -12,6 +12,11 @@
 
 于是就简单的接触了`rust`,
 
+## 下载地址
+
+- [**mac 系统安装**](https://file.wangzevw.com/app/dev-tools/0.0.1/dev-tools_0.0.1_aarch64.dmg)
+- [**windows 系统安装**](https://file.wangzevw.com/app/dev-tools/0.0.1/dev-tools_0.0.1_x64-setup.exe)
+
 ## 开发进度
 
 ### <Badge type="info" text="已完成" />
@@ -19,18 +24,9 @@
 - 基础页面功能已完成;
 - 主题切换功能已完成；
 - git 配置功能已完成；
-- NODE 管理功能已完成；(部分情况下出现闪退问题)
-
-### <Badge type="danger" text="未完成" />
-
-- 代码需要进行优化整理；
+- node 管理功能已完成；
+- 日志打印，代码优化
 - 操作系统的兜底
-- 日志打印
-
-### <Badge type="warning" text="后续添加的功能" />
-
-- 添加软件更新功能
-- 添加跟更新日志
 
 ## 有哪些功能
 
