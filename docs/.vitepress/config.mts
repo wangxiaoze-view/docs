@@ -64,15 +64,15 @@ export default defineConfig({
 			{
 				text: "个人项目",
 				items: [
+					{ text: "utils-tools", link: "https://docs-tools.wangzevw.com/" },
+					{ text: "知识库", link: "https://www.wangzevw.com" },
+					{ text: "Demos", link: "https://demos.wangzevw.com" },
 					{ text: "log-reporting", link: "/personal/log-reporting/v1" },
 					{ text: "sim-admin", link: "/personal/sim-admin/1" },
 					{ text: "temp-pro", link: "/personal/temp-pro/docs" },
 					{ text: "dev-tools", link: "/personal/dev-tools/info" },
 				],
 			},
-			{ text: "utils-tools", link: "https://docs-tools.wangzevw.com/" },
-			{ text: "知识库", link: "https://www.wangzevw.com" },
-			{ text: "Demos", link: "https://demos.wangzevw.com" },
 		],
 
 		sidebar: {
@@ -126,6 +126,21 @@ export default defineConfig({
 						{ text: "介绍", link: "/personal/dev-tools/info" },
 						{ text: "环境配置", link: "/personal/dev-tools/env" },
 						{ text: "常见问题", link: "/personal/dev-tools/bug" },
+					],
+				},
+				{
+					text: "remote-components-lib",
+					items: [
+						{ text: "介绍", link: "/personal/remote-components-lib/info" },
+						{ text: "常见问题", link: "/personal/remote-components-lib/issue" },
+						{
+							text: "Element-plus",
+							link: "/personal/remote-components-lib/element",
+						},
+						{ text: "Vant", link: "/personal/remote-components-lib/vant" },
+						{ text: "枚举", link: "/personal/remote-components-lib/enum" },
+						{ text: "hooks", link: "/personal/remote-components-lib/hooks" },
+						{ text: "utils", link: "/personal/remote-components-lib/utils" },
 					],
 				},
 			],
