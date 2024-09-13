@@ -1,40 +1,49 @@
 {
-  "hash": "ef3b951d",
-  "configHash": "55fdd66f",
-  "lockfileHash": "7dfb616d",
-  "browserHash": "273c4f34",
+  "hash": "f4b2ea13",
+  "configHash": "465fab16",
+  "lockfileHash": "ef279a3e",
+  "browserHash": "9e22de21",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.4.38/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "191597ad",
+      "fileHash": "57bc8de5",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.3.8/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2998c688",
+      "fileHash": "18cddadb",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@10.11.1_vue@3.4.38/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "10034382",
+      "fileHash": "64c5c268",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/.pnpm/vitepress@1.3.2_@algolia+client-search@4.24.0_postcss@8.4.41_search-insights@2.16.3/node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "19b8994e",
+    "@vitepress-demo-preview/component": {
+      "src": "../../../../node_modules/.pnpm/@vitepress-demo-preview+component@2.3.2_vitepress@1.3.2_@algolia+client-search@4.24.0_@types+_fkx6yipnrbatsbuyolyocedfee/node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
+      "file": "@vitepress-demo-preview_component.js",
+      "fileHash": "779e8409",
+      "needsInterop": false
+    },
+    "remote-components-lib": {
+      "src": "../../../../node_modules/.pnpm/remote-components@https+++codeload.github.com+wangxiaoze-view+remote-components-lib+tar.gz+e8_wcanfm2purn67dneugg5uexib4/node_modules/remote-components/index.js",
+      "file": "remote-components-lib.js",
+      "fileHash": "8ca961a4",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-INMHQBO5": {
-      "file": "chunk-INMHQBO5.js"
+    "chunk-56ZU2RT2": {
+      "file": "chunk-56ZU2RT2.js"
     },
-    "chunk-III5EX5K": {
-      "file": "chunk-III5EX5K.js"
+    "chunk-ESPWH7BT": {
+      "file": "chunk-ESPWH7BT.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
     }
   }
 }

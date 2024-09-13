@@ -2,6 +2,25 @@
 当您出现一些问题，可以参考下方列举的一些解决方案，如果还是有问题，可以到 [Github](https://github.com/wangxiaoze-view/remote-components-lib/issues) 提 `issue`
 :::
 
+## 支持哪些格式？
+
+只支持`formats-es`的项目，用法如
+
+```ts
+import * as Remotes from "remote-components-lib";
+```
+
+<font color="red">不支持 `require`, 下面错误的使用方式</font>
+
+```ts
+
+const Remotes = require("remote-components-lib"); ❌
+```
+
+## webpack 引入 cdn 为什么会报错？
+
+**目前`cdn`引入只支持`vite`， `vite`构建工具默认支持引入`cdn`，如果您使用的是`webpack`，那么您可以使用`install`的方式引入。**
+
 ## 项目中如何支持 ts 类型提示？
 
 您想要在 `ts` 项目中使用类型提示，那么您可以使用`install`的方式引入(可查看[如何使用](/personal/remote-components-lib/info#使用)); 如果您使用的是`cdn`模式，那么它不支持类型提示。

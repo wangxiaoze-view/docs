@@ -1,4 +1,8 @@
 import { defineConfig } from "vitepress";
+import {
+	containerPreview,
+	componentPreview,
+} from "@vitepress-demo-preview/plugin";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -67,10 +71,11 @@ export default defineConfig({
 					{ text: "utils-tools", link: "https://docs-tools.wangzevw.com/" },
 					{ text: "知识库", link: "https://www.wangzevw.com" },
 					{ text: "Demos", link: "https://demos.wangzevw.com" },
-					{ text: "log-reporting", link: "/personal/log-reporting/v1" },
+					{ text: "日志上报", link: "/personal/log-reporting/v1" },
 					{ text: "sim-admin", link: "/personal/sim-admin/1" },
-					{ text: "temp-pro", link: "/personal/temp-pro/docs" },
-					{ text: "dev-tools", link: "/personal/dev-tools/info" },
+					{ text: "一键代码拉取", link: "/personal/temp-pro/docs" },
+					{ text: "桌面端开发工具", link: "/personal/dev-tools/info" },
+					{ text: "远程组件", link: "/personal/remote-components-lib/info" },
 				],
 			},
 		],
@@ -164,6 +169,12 @@ export default defineConfig({
 				apiKey: "7482b3c521667f0d090c5a782450b94d",
 				indexName: "wangxiaoze",
 			},
+		},
+	},
+	markdown: {
+		config(md) {
+			md.use(containerPreview);
+			md.use(componentPreview);
 		},
 	},
 });
