@@ -24,11 +24,11 @@
 目前使用分为俩中方式：
 
 1. `node_modules`依赖包的形式，直接使用即可。
-2. `cdn`外链引入，目前支持`vite`，`webpack`推荐使用`依赖包`的形式。
+2. ~~`cdn`外链引入，目前支持`vite`，`webpack`推荐使用`依赖包`的形式。~~
 
 #### 1. 依赖配置 <Badge type="tip" text="推荐" />
 
-目前该工具没有上传至 `npm`，所以需要自己手动引入。不上传的原因很简单, 如果对于公司团队使用, 不能使用自己的账户上传, 避免中间出现特殊情况导致其他问题。对于公司团队之间使用，最简单的方式就是公开的或者`cdn`;
+目前该工具没有上传至 `npm`，所以需要自己手动引入。不上传的原因很简单, 如果对于公司团队使用, 不能使用自己的账户上传, 避免中间出现特殊情况导致其他问题。对于公司团队之间使用，最简单的方式就是公开~~的或者`cdn`~~;
 
 先说明一下如何使用`install`的方式：
 
@@ -59,19 +59,21 @@ import { EleLazyImage } from "remote-components-lib";
 
 如果您发现在`ts`中会出现`类型报错的情况`, 您可以在`tsconfig.app.json 或者 tsconfig.json`中`include`添加`node_modules/remote-components/**/*`即可。
 
-#### 2. cdn 配置
+#### ~~2. cdn 配置~~
 
-`cdn`的配置要比`依赖`的配置简单的很多，只需要在对应文件中使用如下代码：
+**由于引入环境存在不确定性，因此 cdn 模式将不被支持**
+
+~~`cdn`的配置要比`依赖`的配置简单的很多，只需要在对应文件中使用如下代码：~~
 
 ```ts
 // element-plus的基础代码
-import "rhttps://remote-components-lib.vercel.app/element/base.css";
+// import "rhttps://remote-components-lib.vercel.app/element/base.css";
 // 组件的样式
-import "https://remote-components-lib.vercel.app/element/LazyImage/index.css";
+// import "https://remote-components-lib.vercel.app/element/LazyImage/index.css";
 // 组件的代码
-import { EleLazyImage } from "https://remote-components-lib.vercel.app/";
+// import { EleLazyImage } from "https://remote-components-lib.vercel.app/";
 
-<template>
-	<EleLazyImage />
-</template>;
+// <template>
+// <EleLazyImage />
+// </template>;
 ```

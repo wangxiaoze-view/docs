@@ -17,9 +17,10 @@ import * as Remotes from "remote-components-lib";
 const Remotes = require("remote-components-lib"); ❌
 ```
 
-## webpack 引入 cdn 为什么会报错？
+## ~~webpack 引入 cdn 为什么会报错？~~
+**由于引入环境存在不确定性，因此 cdn 模式将不被支持**
 
-**目前`cdn`引入只支持`vite`， `vite`构建工具默认支持引入`cdn`，如果您使用的是`webpack`，那么您可以使用`install`的方式引入。**
+~~**目前`cdn`引入只支持`vite`， `vite`构建工具默认支持引入`cdn`，如果您使用的是`webpack`，那么您可以使用`install`的方式引入。**~~
 
 ## 项目中如何支持 ts 类型提示？
 
