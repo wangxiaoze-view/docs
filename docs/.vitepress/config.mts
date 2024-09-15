@@ -78,6 +78,10 @@ export default defineConfig({
 					{ text: "远程组件", link: "/personal/remote-components-lib/info" },
 				],
 			},
+			{
+				text: "统计",
+				link: "https://cloud.umami.is/share/oKGfvOl37vYbyq06/docs.wangzevw.com",
+			},
 		],
 
 		sidebar: {
