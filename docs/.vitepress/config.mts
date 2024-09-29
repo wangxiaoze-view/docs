@@ -59,6 +59,20 @@ export default defineConfig({
 				})();
 			`,
 		],
+		[
+			"script",
+			{},
+			`
+				var _hmt = _hmt || [];
+				(function() {
+					let hm = document.createElement("script");
+					hm.src = "https://cloud.umami.is/script.js";
+					hm.setAttribute("data-website-id", "1aad2c94-8951-4f97-a822-fe9efff5a6c1");
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			`,
+		],
 	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
